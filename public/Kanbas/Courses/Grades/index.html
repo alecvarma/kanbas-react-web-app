@@ -1,63 +1,65 @@
-<select>
-    <option value="gradebook">Gradebook</option>
-</select>
-<button type="button">Import</button>
-<select>
-    <option value="export">Export</option>
-</select>
-<button type="button">Configure</button>
+<form id="grades">
+    <select>
+        <option value="gradebook">Gradebook</option>
+    </select>
+    <button type="button">Import</button>
+    <select>
+        <option value="export">Export</option>
+    </select>
+    <button type="button">Configure</button>
 
-<h3>Student Names</h3>
+    <h3>Student Names</h3>
 
-<input id="search-student" placeholder="Search Students"/><br/>
+    <input id="search-student" placeholder="Search Students"/><br/>
 
-<h3>Assignment Names</h3>
+    <h3>Assignment Names</h3>
 
-<input id="search-assignments" placeholder="Search Assignment"/><br/>
-<br/>
-<button type="button">Apply Filters</button>
-<p></p>
-<!-- width="25%" height="5%" -->
-<table border="1">
-    <thead>
-        <tr>
-            <th>Student Name</th>
-            <th>A1 SETUP <p>Out of 100</p></th>
-            <th>A2 HTML <p>Out of 100</p></th>
-            <th>A3 CSS <p>Out of 100</p></th>
-            <th>A4 BOOTSTRAP <p>Out of 100</p></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Alice Wonderland</td>
-            <td>98</td>
-            <td>89</td>
-            <td>87</td>
-            <td>90</td>
-        </tr>
-        <tr>
-            <td>Princess Leia</td>
-            <td>98</td>
-            <td>80</td>
-            <td>87</td>
-            <td>86</td>
-        </tr>
-        <tr>
-            <td>Luke Skywalker</td>
-            <td>
-                <input type="number" id="a1-luke-skywalker-grade" value="99"/>
-            </td>
-            <td>88</td>
-            <td>97</td>
-            <td>82</td>
-        </tr>
-        <tr>
-            <td>Han Solo</td>
-            <td>83</td>
-            <td>99</td>
-            <td>94</td>
-            <td>98</td>
-        </tr>
-    </tbody>
-</table>
+    <input id="search-assignments" placeholder="Search Assignment"/><br/>
+    <br/>
+    <button type="button">Apply Filters</button>
+    <p></p>
+    <!-- width="25%" height="5%" -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>A1 SETUP <p>Out of 100</p></th>
+                <th>A2 HTML <p>Out of 100</p></th>
+                <th>A3 CSS <p>Out of 100</p></th>
+                <th>A4 BOOTSTRAP <p>Out of 100</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Wonderland</td>
+                <td>98</td>
+                <td>89</td>
+                <td>87</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Princess Leia</td>
+                <td>98</td>
+                <td>80</td>
+                <td>87</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Luke Skywalker</td>
+                <td>
+                    <input type="number" id="a1-luke-skywalker-grade" value="99"/>
+                </td>
+                <td>88</td>
+                <td>97</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Han Solo</td>
+                <td>83</td>
+                <td>99</td>
+                <td>94</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+    </table>
+</form>
