@@ -1,15 +1,16 @@
 import Kanbas from "./Kanbas";
 import './App.css';
 import Labs from "./Labs";
-import HelloWorld from './Labs/a3/HelloWorld';
+import { HashRouter } from "react-router-dom";
+import HelloWorld from "./Labs/a3/HelloWorld";
 
 function App() {
    return (
+      <HashRouter>
       <div>
          <Labs/>
-         <Kanbas/>
-         <HelloWorld/>
       </div>
+      </HashRouter>
 );}
-
+// .
 export default App;
